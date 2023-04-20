@@ -1,0 +1,318 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('./font/roboto/Roboto-Black.eot');
+  src: url('./font/roboto/Roboto-Black.eot?#iefix') format('embedded-opentype'),
+      url('./font/roboto/Roboto-Black.woff2') format('woff2'),
+      url('./font/roboto/Roboto-Black.woff') format('woff'),
+      url('./font/roboto/Roboto-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./font/roboto/Roboto-BlackItalic.eot');
+  src: url('./font/roboto/Roboto-BlackItalic.eot?#iefix') format('embedded-opentype'),
+      url('./font/roboto/Roboto-BlackItalic.woff2') format('woff2'),
+      url('./font/roboto/Roboto-BlackItalic.woff') format('woff'),
+      url('./font/roboto/Roboto-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./font/roboto/Roboto-Bold.eot');
+  src: url('./font/roboto/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+      url('./font/roboto/Roboto-Bold.woff2') format('woff2'),
+      url('./font/roboto/Roboto-Bold.woff') format('woff'),
+      url('./font/roboto/Roboto-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./font/roboto/Roboto-BoldItalic.eot');
+  src: url('./font/roboto/Roboto-BoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('./font/roboto/Roboto-BoldItalic.woff2') format('woff2'),
+      url('./font/roboto/Roboto-BoldItalic.woff') format('woff'),
+      url('./font/roboto/Roboto-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./font/roboto/Roboto-Light.eot');
+  src: url('./font/roboto/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+      url('./font/roboto/Roboto-Light.woff2') format('woff2'),
+      url('./font/roboto/Roboto-Light.woff') format('woff'),
+      url('./font/roboto/Roboto-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./font/roboto/Roboto-Italic.eot');
+  src: url('./font/roboto/Roboto-Italic.eot?#iefix') format('embedded-opentype'),
+      url('./font/roboto/Roboto-Italic.woff2') format('woff2'),
+      url('./font/roboto/Roboto-Italic.woff') format('woff'),
+      url('./font/roboto/Roboto-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./font/roboto/Roboto-LightItalic.eot');
+  src: url('./font/roboto/Roboto-LightItalic.eot?#iefix') format('embedded-opentype'),
+      url('./font/roboto/Roboto-LightItalic.woff2') format('woff2'),
+      url('./font/roboto/Roboto-LightItalic.woff') format('woff'),
+      url('./font/roboto/Roboto-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./font/roboto/Roboto-Medium.eot');
+  src: url('./font/roboto/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+      url('./font/roboto/Roboto-Medium.woff2') format('woff2'),
+      url('./font/roboto/Roboto-Medium.woff') format('woff'),
+      url('./font/roboto/Roboto-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./font/roboto/Roboto-MediumItalic.eot');
+  src: url('./font/roboto/Roboto-MediumItalic.eot?#iefix') format('embedded-opentype'),
+      url('./font/roboto/Roboto-MediumItalic.woff2') format('woff2'),
+      url('./font/roboto/Roboto-MediumItalic.woff') format('woff'),
+      url('./font/roboto/Roboto-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./font/roboto/Roboto-Regular.eot');
+  src: url('./font/roboto/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+      url('./font/roboto/Roboto-Regular.woff2') format('woff2'),
+      url('./font/roboto/Roboto-Regular.woff') format('woff'),
+      url('./font/roboto/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./font/roboto/Roboto-ThinItalic.eot');
+  src: url('./font/roboto/Roboto-ThinItalic.eot?#iefix') format('embedded-opentype'),
+      url('./font/roboto/Roboto-ThinItalic.woff2') format('woff2'),
+      url('./font/roboto/Roboto-ThinItalic.woff') format('woff'),
+      url('./font/roboto/Roboto-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./font/roboto/Roboto-Thin.eot');
+  src: url('./font/roboto/Roboto-Thin.eot?#iefix') format('embedded-opentype'),
+      url('./font/roboto/Roboto-Thin.woff2') format('woff2'),
+      url('./font/roboto/Roboto-Thin.woff') format('woff'),
+      url('./font/roboto/Roboto-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+.clearfix {
+    clear: both;
+  }
+  .blur-line {
+    display: inline-block;
+    margin-left: 5px;
+    width: 80px;
+    height: 4px;
+    background: rgba(237, 35, 159, 0.6);
+    filter: blur(4px);
+  }
+  a{
+    transition: all 0.35s ease-in-out;
+  }
+  .body{
+    margin:0;
+    font-family:'roboto', sans-serif;
+  }
+  .title {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    line-height: 52px;
+    text-transform: capitalize;
+    color: #05364e;
+  }
+  .subtitle {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    position: relative;
+    color: #797979;
+  }
+  .button {
+    background: linear-gradient(to right, #1345e6 0%, #ed239f 51%, #1345e6 100%);
+    color: white;
+    font-weight: 31.25rem;
+    font-size: 0.875rem;
+    margin-top: 1.875rem;
+    border: none;
+    padding: 1.25rem 2.50rem;
+    border-radius: 5px;
+    cursor: pointer;
+    background-size: 200% auto;
+    transition: all 0.3s ease-in-out;
+  }
+  .button:hover{
+    background-position: right center;
+    color: #fff;
+  }
+  /* header section */
+  
+  .Main-header .box{
+    display: flex;
+    align-items: center;
+  }
+  .Main-header img {
+    width: 64px;
+    vertical-align: middle;
+  }
+  
+  .Main-header {
+    position: fixed;
+    background-color: white;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    box-shadow: 0px 3px 16px 0px rgb(0 0 0 /10%);
+    z-index: 10;
+  }
+  .main-navigation__item {
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .main-navigation__item a:hover {
+    color: #efb6df;
+  }
+  .main-navigation__item.active a {
+    color: #efb6df;
+  }
+  .main-navigation__item a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 0.75rem;
+    font-weight: 500px;
+    color: #212529;
+    text-transform: uppercase;
+  }
+  .box {
+    width: 1140px;
+    margin: 0 auto;
+  }
+  body{
+    font-size: auto;
+  }
+  /* header section */
+  
+  /* footer section */
+  .footer{
+  padding: 50px 0px;
+  background-color: #021017;
+  text-align: center;
+  margin-top: 50px;
+  }
+  .footer__navigation{
+    margin-bottom: 50px;
+  }
+  .footer__item{
+    display: inline-block;
+    padding:0 10px;
+  }
+  .footer__brand img{ 
+    width: 128px;
+  }
+  .footer__item a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .footer__socials{
+    list-style:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer__socials > div{
+    flex: 1;
+  }
+  .footer__social{
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 36px;
+    color: #05364d;
+    font-size: 16px;
+    margin-right: 12px;
+    transition: all 0.4s ease;
+    overflow: hidden;
+  }
+  .footer__social a{
+    color: #021017;
+  }
+  .footer__socials :hover{
+    background: linear-gradient(to right, #1345e6 0%, #ed239f 51%, #1345e6 0%);
+    background-size: 198% auto;
+    transform: scale(1.5);
+  }
+  .footer__social:hover i{
+    color:white;
+    width: 100%;
+    
+  }
+  @media only screen and (max-width:991px){
+    .box{
+      width: 95%;
+    }
+    /* navigation section */
+    .main-navigation{
+      display: none;
+    }
+    .footer__navigation{
+      display: none;
+    }
+    
+  }
+  @media only screen and (max-width:767px){
+    .box{
+      width: 96%;
+    }
+  }
