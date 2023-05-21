@@ -1,4 +1,6 @@
 # css_portfolio
+https://css-meliboev.netlify.app
+
 Personal Website
 This is a personal website created using HTML and CSS, consisting of six sections: Main, Header, About Me, My Blog, My Friends, and My Partner.
 
